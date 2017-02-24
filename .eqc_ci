@@ -1,8 +1,0 @@
-{build, "make test_chronos"}.
-{test_path, "ebin"}.
-{test_path, "test"}.
-{deps, "deps/edown/ebin"}.
-{deps, "deps/gen_leader/ebin"}.
-{deps, "deps/gproc/ebin"}.
-{deps, "deps/hamcrest/ebin"}.
-{deps, "deps/meck/ebin"}.
