@@ -20,6 +20,8 @@ build_steps:
   - rebar3 as check dialyzer
   - rebar3 eunit
   - rebar3 ct
+  # compile examples
+  - rebar3 as example compile
   # last, but not least, do the docs build?
   - rebar3 edoc
 org_mode: true

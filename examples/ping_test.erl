@@ -1,6 +1,6 @@
 -module(ping_test).
 
--compile(export_all).
+-export([run_test/0]).
 
 setup() ->
     meck:new(chronos, [passthrough]),
@@ -31,8 +31,6 @@ expire_silence_timer_test() ->
     timer:sleep(100),
     undefined = whereis(ping),
     ok.
-
-
 
 run_test() ->
     setup(),
