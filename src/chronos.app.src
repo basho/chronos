@@ -1,7 +1,7 @@
 {application, chronos, [
 	{description, "chronos - a timer utility for Erlang"},
 	{vsn, git},
-	{modules, ['chronos']},
+	{modules, []},
 	{registered, []},
 	{applications, [kernel,stdlib]}
 ]}.

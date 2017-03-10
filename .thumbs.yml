@@ -20,7 +20,6 @@ build_steps:
   - rebar3 as check brt-deps --check
   - rebar3 as check xref
   - rebar3 as check dialyzer
-  - rebar3 eunit
   - rebar3 ct
   # verify the examples, but not with dialyzer
   - rebar3 as example xref
